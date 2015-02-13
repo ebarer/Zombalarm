@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE214A421A8E76EA004F2F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE214A411A8E76EA004F2F10 /* AppDelegate.swift */; };
+		CE214A441A8E76EA004F2F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE214A431A8E76EA004F2F10 /* ViewController.swift */; };
+		CE214A471A8E76EA004F2F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE214A451A8E76EA004F2F10 /* Main.storyboard */; };
+		CE214A491A8E76EA004F2F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE214A481A8E76EA004F2F10 /* Images.xcassets */; };
+		CE214A4C1A8E76EA004F2F10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE214A4A1A8E76EA004F2F10 /* LaunchScreen.xib */; };
+		CE214A581A8E76EA004F2F10 /* ZombalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE214A571A8E76EA004F2F10 /* ZombalarmTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE214A521A8E76EA004F2F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE214A341A8E76EA004F2F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE214A3B1A8E76EA004F2F10;
+			remoteInfo = Zombalarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE214A3C1A8E76EA004F2F10 /* Zombalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zombalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE214A401A8E76EA004F2F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE214A411A8E76EA004F2F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE214A431A8E76EA004F2F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE214A461A8E76EA004F2F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE214A481A8E76EA004F2F10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE214A4B1A8E76EA004F2F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE214A511A8E76EA004F2F10 /* ZombalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZombalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE214A561A8E76EA004F2F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE214A571A8E76EA004F2F10 /* ZombalarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombalarmTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE214A391A8E76EA004F2F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE214A4E1A8E76EA004F2F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE214A331A8E76EA004F2F10 = {
+			isa = PBXGroup;
+			children = (
+				CE214A3E1A8E76EA004F2F10 /* Zombalarm */,
+				CE214A541A8E76EA004F2F10 /* ZombalarmTests */,
+				CE214A3D1A8E76EA004F2F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE214A3D1A8E76EA004F2F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE214A3C1A8E76EA004F2F10 /* Zombalarm.app */,
+				CE214A511A8E76EA004F2F10 /* ZombalarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE214A3E1A8E76EA004F2F10 /* Zombalarm */ = {
+			isa = PBXGroup;
+			children = (
+				CE214A411A8E76EA004F2F10 /* AppDelegate.swift */,
+				CE214A431A8E76EA004F2F10 /* ViewController.swift */,
+				CE214A451A8E76EA004F2F10 /* Main.storyboard */,
+				CE214A481A8E76EA004F2F10 /* Images.xcassets */,
+				CE214A4A1A8E76EA004F2F10 /* LaunchScreen.xib */,
+				CE214A3F1A8E76EA004F2F10 /* Supporting Files */,
+			);
+			path = Zombalarm;
+			sourceTree = "<group>";
+		};
+		CE214A3F1A8E76EA004F2F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE214A401A8E76EA004F2F10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE214A541A8E76EA004F2F10 /* ZombalarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE214A571A8E76EA004F2F10 /* ZombalarmTests.swift */,
+				CE214A551A8E76EA004F2F10 /* Supporting Files */,
+			);
+			path = ZombalarmTests;
+			sourceTree = "<group>";
+		};
+		CE214A551A8E76EA004F2F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE214A561A8E76EA004F2F10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE214A3B1A8E76EA004F2F10 /* Zombalarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE214A5B1A8E76EA004F2F10 /* Build configuration list for PBXNativeTarget "Zombalarm" */;
+			buildPhases = (
+				CE214A381A8E76EA004F2F10 /* Sources */,
+				CE214A391A8E76EA004F2F10 /* Frameworks */,
+				CE214A3A1A8E76EA004F2F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zombalarm;
+			productName = Zombalarm;
+			productReference = CE214A3C1A8E76EA004F2F10 /* Zombalarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE214A501A8E76EA004F2F10 /* ZombalarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE214A5E1A8E76EA004F2F10 /* Build configuration list for PBXNativeTarget "ZombalarmTests" */;
+			buildPhases = (
+				CE214A4D1A8E76EA004F2F10 /* Sources */,
+				CE214A4E1A8E76EA004F2F10 /* Frameworks */,
+				CE214A4F1A8E76EA004F2F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE214A531A8E76EA004F2F10 /* PBXTargetDependency */,
+			);
+			name = ZombalarmTests;
+			productName = ZombalarmTests;
+			productReference = CE214A511A8E76EA004F2F10 /* ZombalarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE214A341A8E76EA004F2F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Elliot Barer";
+				TargetAttributes = {
+					CE214A3B1A8E76EA004F2F10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CE214A501A8E76EA004F2F10 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CE214A3B1A8E76EA004F2F10;
+					};
+				};
+			};
+			buildConfigurationList = CE214A371A8E76EA004F2F10 /* Build configuration list for PBXProject "Zombalarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE214A331A8E76EA004F2F10;
+			productRefGroup = CE214A3D1A8E76EA004F2F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE214A3B1A8E76EA004F2F10 /* Zombalarm */,
+				CE214A501A8E76EA004F2F10 /* ZombalarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE214A3A1A8E76EA004F2F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE214A471A8E76EA004F2F10 /* Main.storyboard in Resources */,
+				CE214A4C1A8E76EA004F2F10 /* LaunchScreen.xib in Resources */,
+				CE214A491A8E76EA004F2F10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE214A4F1A8E76EA004F2F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE214A381A8E76EA004F2F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE214A441A8E76EA004F2F10 /* ViewController.swift in Sources */,
+				CE214A421A8E76EA004F2F10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE214A4D1A8E76EA004F2F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE214A581A8E76EA004F2F10 /* ZombalarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE214A531A8E76EA004F2F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE214A3B1A8E76EA004F2F10 /* Zombalarm */;
+			targetProxy = CE214A521A8E76EA004F2F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE214A451A8E76EA004F2F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE214A461A8E76EA004F2F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE214A4A1A8E76EA004F2F10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE214A4B1A8E76EA004F2F10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE214A591A8E76EA004F2F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE214A5A1A8E76EA004F2F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE214A5C1A8E76EA004F2F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zombalarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE214A5D1A8E76EA004F2F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zombalarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE214A5F1A8E76EA004F2F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZombalarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombalarm.app/Zombalarm";
+			};
+			name = Debug;
+		};
+		CE214A601A8E76EA004F2F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZombalarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombalarm.app/Zombalarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE214A371A8E76EA004F2F10 /* Build configuration list for PBXProject "Zombalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE214A591A8E76EA004F2F10 /* Debug */,
+				CE214A5A1A8E76EA004F2F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE214A5B1A8E76EA004F2F10 /* Build configuration list for PBXNativeTarget "Zombalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE214A5C1A8E76EA004F2F10 /* Debug */,
+				CE214A5D1A8E76EA004F2F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE214A5E1A8E76EA004F2F10 /* Build configuration list for PBXNativeTarget "ZombalarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE214A5F1A8E76EA004F2F10 /* Debug */,
+				CE214A601A8E76EA004F2F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE214A341A8E76EA004F2F10 /* Project object */;
+}
