@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Zombalarm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +15,51 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="FMe-JU-Mae">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZombieImage" translatesAutoresizingMaskIntoConstraints="NO" id="2C3-pb-qNp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWB-Y9-gz0">
+                                <rect key="frame" x="178" y="90" width="245" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="7fn-Gb-mfX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FMe-JU-Mae" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="2AF-LP-I8s"/>
+                            <constraint firstItem="2C3-pb-qNp" firstAttribute="leading" secondItem="FMe-JU-Mae" secondAttribute="leading" id="2RB-zp-rzD"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="oWB-Y9-gz0" secondAttribute="bottom" constant="489" id="HVq-T5-uWG"/>
+                            <constraint firstItem="2C3-pb-qNp" firstAttribute="centerX" secondItem="oWB-Y9-gz0" secondAttribute="centerX" id="MhJ-zC-CIc"/>
+                            <constraint firstItem="2C3-pb-qNp" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="Mr2-L8-ghQ"/>
+                            <constraint firstItem="2C3-pb-qNp" firstAttribute="top" secondItem="FMe-JU-Mae" secondAttribute="top" id="XKv-bc-gEZ"/>
+                            <constraint firstItem="oWB-Y9-gz0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="70" id="aIW-xm-rnZ"/>
+                            <constraint firstItem="FMe-JU-Mae" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lij-0m-pz0"/>
+                            <constraint firstItem="2C3-pb-qNp" firstAttribute="trailing" secondItem="FMe-JU-Mae" secondAttribute="trailing" id="nWO-4v-KUt"/>
+                            <constraint firstItem="FMe-JU-Mae" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="tHD-hm-h48"/>
+                            <constraint firstAttribute="trailing" secondItem="FMe-JU-Mae" secondAttribute="trailing" id="uP2-2B-4IW"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="wEV-bB-IsK"/>
+                    <connections>
+                        <outlet property="activityLabel" destination="oWB-Y9-gz0" id="nmO-XI-Ajx"/>
+                        <outlet property="zombieImage" destination="2C3-pb-qNp" id="8Zj-rd-cDx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1132" y="278"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BackgroundImage" width="750" height="1334"/>
+        <image name="ZombieImage" width="750" height="1334"/>
+    </resources>
 </document>
