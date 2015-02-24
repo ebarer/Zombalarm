@@ -1,9 +1,9 @@
 //
-//  DebugViewController.swift
-//  SmartLock iOS Application
+//  ViewController.swift
+//  Zombalarm
 //
-//  Created by Elliot Barer on 2014-10-09.
-//  Copyright (c) 2014 Elliot Barer. All rights reserved.
+//  Created by Elliot Barer on 2015-02-13.
+//  Copyright (c) 2015 Elliot Barer. All rights reserved.
 //
 
 import UIKit
